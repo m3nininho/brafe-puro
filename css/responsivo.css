@@ -1,0 +1,24 @@
+@media (max-width: 739px){
+    .menu-nav{
+    float: none;
+    clear: both;
+    }
+    .intro{
+        padding: 60px 0;
+    }
+    .sobre-container{
+        max-width: 300px;
+    }
+    .sobre-item{
+        width: 300px;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 740px) and (max-width: 980px){
+    .sobre-container{
+        max-width: 720px;
+    }
+    .sobre-item{
+        width: 340px;
+    }
+}
