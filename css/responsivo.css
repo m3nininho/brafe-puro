@@ -13,6 +13,18 @@
         width: 300px;
         margin: 0 auto;
     }
+    .produtos-container{
+        max-width: 300px;
+    }
+    .produtos-item{
+        margin: 0 auto 20px auto;
+    }
+    .locais{
+        max-width: 300px;
+    }
+    .locais-item > div, .locais-item img{
+        width: 340px;
+    }
 }
 @media (min-width: 740px) and (max-width: 980px){
     .sobre-container{
@@ -21,4 +33,14 @@
     .sobre-item{
         width: 340px;
     }
+    .produtos-container{
+        max-width: 720px;
+    }
+    .produtos-item{
+        width: 220px;
+    }
+    .locais-item > div, .locais-item img{
+        width: 340px;
+    }
+ 
 }
