@@ -24,6 +24,25 @@
     }
     .locais-item > div, .locais-item img{
         width: 340px;
+        margin: 0;
+    }
+    .assine-container{
+        max-width: 300px;
+    }
+    .assine-info, .assine form, .assine input{
+        width: 300px;
+        margin: 10px 0 0 0;
+    }
+    .footer-container{
+        max-width: 300px;
+    }
+    .footer p{
+        float: none;
+        margin: 0px;
+    }
+    .footer img{
+        float: none;
+        margin: 20px 0;
     }
 }
 @media (min-width: 740px) and (max-width: 980px){
@@ -42,5 +61,10 @@
     .locais-item > div, .locais-item img{
         width: 340px;
     }
- 
+    .assine-container{
+        max-width: 720px;
+    }
+    .assine-info, .assin form, .assine input {
+        width: 340px;
+    }
 }
